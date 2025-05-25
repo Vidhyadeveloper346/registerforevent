@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register page </title>
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    <header>
+        <center>
+            <h1> Cultural Utsav2k25 </h1>
+        </center>
+    </header>
+  
+        <nav>
+            <div class="nav-buttons">
+            <button> <a href="index.html">Intro</a></button>
+            <button> <a href="home.html">Home</a></button> 
+            <button><a href="about.html">About</a></button>    
+            <button><a href="register.html">Register</a></button>   
+            
+        </div>
+        </nav>
+        <center>
+        <section style="max-width: 500px;  background-color: #f5ededfd;" >
+        <h2>"" Registration done here "" </h2>
+        <hr>
+        <form action="https://formspree.io/f/mdkgvqqw" method="post" >
+            <table style="text-align: justify;">
+                <tr>
+                    <th> <label for="name">Name:</label> </th>
+                    <th> <input type="text" id="name" name="name"> </th>
+                </tr>
+                <tr>
+                    <th> <label for="email">Email:</label> </th>
+                    <th> <input type="email" id="email" name="email"> </th>
+                </tr>
+                
+                    <th> <label for="gender">Gender:</label> </th>
+                    <th> <input type="radio" id="gender" name="gender" value="Male">Male  <input type="radio" id="gender" name="gender">Female </th>
+                </tr>
+                <tr>
+                    <th> <label for="course">Course:</label> </th>
+                    <th> <input type="text" id="course" name="course"> </th>
+                </tr>
+                <tr>
+                    <th> <label for="dob">Date Of Birth:</label> </th>
+                    <th> <input type="date" id="dob" name="dob"> </th>
+                </tr>
+                <tr>
+                    <th> <label for="event">List Of the Events:</label> </th>
+                    <th> <input type="checkbox" id="event" name="event" value="Dance"> Dance <br>
+                    <input type="checkbox" id="event" name="event" value="Singing"> Singing  <br>
+                    <input type="checkbox" id="event" name="event" value="Cooking"> Cooking  <br>
+                    <input type="checkbox" id="event" name="event" value="Paperpresentation"> Paper Presentations<br></th>
+                     
+                </tr>
+                <tr>
+                    <th><label for="year">Year of Study:</label></th>
+                    <th><select id="year" name="year">
+                        <option value="select">Select any one </option>
+                        <option value="1st">1st</option>
+                         <option value="2nd">2nd</option> 
+                         <option value="3rd">3rd</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th> <label for="message">College Name:</label> </th>
+                    <th> <textarea id="message" name="message" rows="4"></textarea> </th>
+                </tr>
+                <tr>
+                <tr>
+                    <th><button type="submit"> Register </button></th>
+                </tr>
+                
+            </table>
+            <hr>
+            
+        </form>
+    </section>
+     </center>
+</body>
+</html>

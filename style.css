@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(event.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+header{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 250px;
+
+
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    font-size: larger;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+nav  button{
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px 15px;
+    font-weight: 600;
+    background: transparent;
+    color: white;
+    size: 20px;
+}
+nav  button  :hover{
+    color: black;
+
+    
+}
+@media screen and (max-width: 768px) {
+ nav button {
+    display: inline-block;
+    width: fit-content;
+    margin: 8px 15px;
+}
+}

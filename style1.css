@@ -55,14 +55,41 @@ section {
     }
     
 }
+/* Base Section Style */
+section {
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 1000px;
+  width: 90%;
+  background-color: #fcfdfa;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(189, 85, 85, 0.1);
+  transition: box-shadow 0.4s ease;
+  text-align: justify;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Make images responsive */
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Media Query: Mobile screens */
 @media screen and (max-width: 768px) {
-    section table{
-        padding:10px;
-        margin:10px auto;
-        max-width: 90%;
-        font-size:14px;
-        display: inline-block;
-    
-    }
-    
+  section {
+    padding: 10px;
+    margin: 10px auto;
+    width: 95%;
+    font-size: 14px;
+  }
+
+  nav button {
+    display: inline-block;
+    width: auto;
+    margin: 6px 4px;
+  }
 }

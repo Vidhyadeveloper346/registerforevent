@@ -55,3 +55,14 @@ section {
     }
     
 }
+@media screen and (max-width: 768px) {
+    section table{
+        padding:10px;
+        margin:10px auto;
+        max-width: 90%;
+        font-size:14px;
+        display: inline-block;
+    
+    }
+    
+}
